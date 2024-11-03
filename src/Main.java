@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        double distance = 150; // 150 км аралык
+        double distance = 150;
 
         double carCost = Transport.CAR.calculateTravelDistance(distance);
         double busCost = Transport.BUS.calculateTravelDistance(distance);
